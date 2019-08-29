@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1400px){
+	/*==fonts==*/
+	.banners .hldr h2 { font-size: 50px!important; }
+	.video-bg .hero-text h3, .img-bg .hero-text h3, footer .top h3 { font-size: 40px;}
+	/*==EOF fonts==*/
+}
+
+@media only screen and (max-width: 1200px){
+	/*==fonts==*/
+	.banners .hldr h2 { font-size: 40px!important; }
+	header .nav-hldr .left h3 { font-size: 40px!important; }
+	.video-bg .hero-text h3, .img-bg .hero-text h3, footer .top h3 {font-size: 35px; }
+	.video-bg .hero-text p, .img-bg .hero-text p { font-size: 25px; }
+	.arrw-hldr a, footer .top .hldr article p, footer .top .hldr article .mainlist > li h5, footer .top .hldr article .mainlist > li > ul > li label, footer .top .hldr article .mainlist > li input[type="submit"], .blog-list .hldr .mainlist > li .parent article .arrw-hldr a, .whatwedo .hldr ul > li .arrw-hldr a  {font-size: 20px; }
+	.blog-list .hldr .mainlist > li .parent article h4, .whatwedo .hldr ul > li h4 { font-size: 25px; }
+	/*==EOF fonts==*/
+
+	.banners .hldr .btm-list { margin-top: 50px; }
+
+	footer .top .hldr aside { padding:0px 40px; }
+	.blog-list .hldr .mainlist > li .parent aside {width: 350px; height: 250px; }
+	.blog-list .hldr .mainlist > li .parent article { width: calc(100% - 350px);}
+}
+
+@media only screen and (max-width: 999px){
+	/*FONTS*/
+	header .nav-hldr .left h3 { font-size: 30px!important; }
+	footer .top .hldr aside .mainlist li h5{ font-size: 20px; line-height: 27px;}
+	footer .top .hldr aside .mainlist li p { font-size: 18px; margin-bottom: 15px; }
+	.banners.white-banner .hldr p { font-size: 20px; line-height: 30px; }
+
+	/*EOF FONTS*/
+	.wrapper { max-width: 100%; padding: 0px 20px; }
+	.arrw-hldr { margin-top: 30px; }
+	.video-bg, .img-bg { min-height: 500px; }
+	.sample-works .hldr .item-hldr.video-item { height: 500px;}
+	footer .top {padding: 60px 0px 40px; }
+	footer .btm .hldr p { font-size: 18px; }
+	footer .btm { padding: 15px 0px; }
+	footer .top .hldr article, footer .top .hldr aside { width: 100%; }
+	footer .top .hldr aside { padding: 0px; margin-bottom: 40px; }
+	footer .top .hldr { flex-direction: column-reverse;}
+	.banners.white-banner .hldr { max-width: 100%; }
+	.blog-list .hldr .mainlist > li .parent aside { width: 100%; height: auto; }
+	.blog-list .hldr .mainlist > li .parent article { width: 100%; padding: 20px 15px; }
+	.blog-list .hldr .mainlist > li { margin-bottom: 50px; }
+	.whatwedo .hldr ul > li { width: 100%; }
+	.whatwedo .hldr ul > li:nth-last-child(2) { margin-bottom: 50px; }
+	.whatwedo .hldr ul > li { margin-bottom: 50px; }
+	, .whatwedo .hldr ul > li:last-child { margin-bottom: 0px; }
+	.sample-works .hldr .slider-hldr { padding: 20px; }
+
+}
+
+@media only screen and (max-width: 600px){
+	/*FONTS*/
+	.banners .hldr h2 { font-size: 35px!important; }
+	.banners .hldr .btm-list > ul > li a, .banners.white-banner .btm .hldr ul > li > a { font-size: 18px;}
+	.video-bg .hero-text h3, .img-bg .hero-text h3, footer .top h3 { font-size: 30px; }
+	.video-bg .hero-text p, .img-bg .hero-text p, .banners .hldr .btm-list h4, .banners.white-banner .btm .hldr h4 { font-size: 20px; }
+	footer .top .hldr article p, footer .top .hldr article .mainlist > li h5, footer .top .hldr article .mainlist > li > ul > li label, footer .top .hldr article .mainlist > li input[type="submit"], .banners.white-banner .hldr p, .blog-list .hldr .mainlist > li .parent article p, .blog-list .hldr .mainlist > li .parent article .tag ul li h5, .whatwedo .hldr ul > li p { font-size: 18px; } 
+	.banners.white-banner .hldr p { line-height: 28px; }
+
+	/*EOF FONTS*/
+
+
+	header .nav-hldr .left aside { max-width: 65px; height: 63px; } 
+	header .nav-hldr .left h3  {font-size: 20px!important; letter-spacing: 2px!important; padding-left: 10px!important; }
+	header { padding: 15px 0px!important; }
+	header .nav-hldr .right span.menu-trig { display: none!important; }
+	header .nav-hldr .right .burger { padding-right: 0px!important; }
+	.banners .hldr { padding: 135px 0px 40px!important; }
+	.banners .hldr .btm-list > ul > li, .banners.white-banner .btm .hldr ul > li  { width: 100%; padding-right: 0px;}
+	.banners .hldr .btm-list > ul > li a, .banners.white-banner .btm .hldr ul > li > a { display: block; text-align: center; padding: 10px 25px;  }
+	.video-bg, .img-bg { min-height: 340px; }
+	.sample-works .hldr .item-hldr.video-item { height: 340px; }
+	.arrw-hldr a, .blog-list .hldr .mainlist > li .parent article .arrw-hldr a, .whatwedo .hldr ul > li .arrw-hldr a { font-size: 18px; }
+	.img-bg .hero-text { bottom: 20px; }
+	.arrw-hldr {margin-top: 20px; }
+	footer .top .hldr article .mainlist > li > ul > li{ width: 100%; }
+	footer .top .hldr article .mainlist > li > ul > li input[type="checkbox"]{     top: 6px; transform: translate(0, 0); width: 13px; height: 13px; }
+	footer .btm .hldr p{ font-size: 16px; }
+	footer .top .hldr article .mainlist > li input[type="submit"] { width: 100%; padding: 10px 25px; }
+	.banners.white-banner .btm .hldr { padding: 0px!important; }
+	/*.blog-list .hldr .mainlist > li .parent article .tag ul li { width: 100%; padding-right: 0px;}
+	.blog-list .hldr .mainlist > li .parent article .tag ul li h5{ font-size: 18px; }*/
+	.blog-list .hldr .mainlist > li .parent article { padding: 20px 0px; }
+	.sample-works .hldr .item-hldr { margin-bottom: 40px; }
+	.sample-works .hldr .strat .owl-nav > div { width: 15px; height: 30px;}
+	.sample-works .hldr .strat .owl-nav .owl-prev, .sample-works .hldr .strat .owl-nav .owl-next { background-size: 15px 30px; }
+	.sample-works .hldr .strat .owl-nav .owl-prev { left: 0;}
+	.sample-works .hldr .strat .owl-nav .owl-next { right: 0; }
+	.sample-works .hldr .slider-hldr { padding: 10px 10px; }
+	footer .top { background-size: 120px; }
+	.nav  {width: 100%; }
+
+	.black-header.us-active .nav-hldr .left h3{ color: #fff;}
+	.black-header.us-active .nav-hldr .left .home-logo { display: block;}
+   	.black-header.us-active .nav-hldr .left .active-state { display: none; }
+    
+    .black-header.us-active.active .nav-hldr .left h3 { color: #000; }
+ 	.black-header.us-active.active .nav-hldr .left .home-logo { display: none; }
+ 	.black-header.us-active.active .nav-hldr .left .active-state { display: block; }
+
+}
+
+
+@media only screen and (max-width: 350px){
+	/*FONTS*/
+	header .nav-hldr .left h3 { font-size: 18px!important; }
+	/*EOF FONTS*/
+	header .nav-hldr .left aside { max-width: 40px; height: 37px; }
+	.banners .hldr { padding: 109px 0px 40px!important; }
+	.nav { width: 100%; }
+}
